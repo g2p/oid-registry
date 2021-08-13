@@ -38,5 +38,8 @@ pkcs12 = []
 x509 = []
 x962 = []
 
+[patch.crates-io]
+der-parser.path = "../der-parser"
+
 [dependencies]
-der-parser = "5.1"
+der-parser = "6"
